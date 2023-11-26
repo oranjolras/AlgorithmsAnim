@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "DINdong";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('DINdong.otf') format('<3');
+  }
+
+  body {
+    cursor: url('cursor.png') 10 10, auto;
+  }
+
+.content{
+    color: rgb(0, 255, 0);
+    font-family:"DINdong";
+    margin-top: 0px;
+    margin-left: 40px;
+
+    position: relative;
+}
+  
+.link{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 20pt;
+    z-index: 1;
+    color: rgb(0, 255, 0) !important;
+}
+
+.title{
+    position: absolute;
+    font-size: 80pt;
+    font-style: normal;
+    text-align: left;
+}
+
+.text{
+    position: absolute;
+    font-size: 25pt;
+    font-style: normal;
+    text-align: left;
+
+    top: 600px;
+}
